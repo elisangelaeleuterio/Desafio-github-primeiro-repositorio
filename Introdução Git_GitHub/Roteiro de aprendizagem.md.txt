@@ -1,25 +1,88 @@
 ## Roteiro de aprendizagem Git/GitHub :books:
 
-
-
 - Introdução ao Git
 
-- Instalação programa 
-
-- Conceitos dos sistema
+- Instalação do Git
 
 - Códigos e comandos
 
-- Criando pastas e repositórios
+- Gerindo arquivo
 
-- Criando usuário e senha
+  ### Introdução ao Git
 
-- Criando conta GitHub
+  O Git é um versionador de código fonte (e também de outros tipos de dados) atualmente no mercado. Trata-se de um software robusto e indispensável para todos os desenvolvedores na atualidade, principalmente àqueles que trabalham em equipe.
 
-- Conceitos dos sistema
+  ### Instalação do Git
 
-- Criando novo repositório
+  ### No Windows
+
+  Faça o download e instale de http://msysgit.github.io/. Após a instalação, acesse o *Git Bash* e será aberto um terminal, com o prompt de comando.
+
+  ### No Mac
+
+  Faça o download e instale de https://code.google.com/p/git-osx-installer/downloads. Após a instalação, abra um terminal e o git estará disponível.
+
+  ### No Linux
+
+  Para instalar o *Git* no Ubuntu, ou em uma outra distribuição baseada no Debian, execute no terminal:
+
+  ## Comandos Git 
+
+  https://www.codigofonte.com.br/artigos/top-25-comandos-do-git
+
+  ###### 1. git conf
+
+  ###### 2. git init
+
+  ###### 3. git clone
+
+  ###### 4. git add
+
+  ###### 5. git commit
+
+  ###### 6. git branch
+
+  ###### 7. git checkout
+
+  ###### 8. git push
+
+  ###### 9. git fetch
+
+  ###### 10. git stash
+
+  ###### 11. git show
+
+  ###### 12. git rm
+
+  ###### 13. git help
+
+  ###### 14. git merge
+
+  ###### 15. git rebase
+
+  ###### 16. git pull –rebase
+
+  ###### 17. git cherry-pick
+
+  ###### 18. git archive
+
+  ###### 19. git blame
+
+  ###### 20. git tag
+
+  ###### 21. git diff
+
+  ###### 22. git citool
+
+  ###### 23. git whatchanged
 
   
 
-  
+##     Gerindo arquivos
+
+​		Os arquivos no Git possuem quatro estados, por onde passam desde a sua criação até serem enviados ao repositório 	remoto:
+
+1. **Unstaged:** arquivo novo foi salvo dentro do diretório, mas ainda não é rastreado pelo Git;
+2. **Staged:** arquivo está sendo rastreado pelo Git localmente mas ainda não está vinculado ao repositório local;
+3. **Committed:** arquivo está vinculado apenas ao repositório local;
+4. **Pushed:** arquivo está vinculado também com o repositório remoto.
